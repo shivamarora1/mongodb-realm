@@ -1,0 +1,8 @@
+{
+    "app_id": "reminderserviceapplication-oivje",
+    "config_version": 20210101,
+    "name": "reminderServiceApplication",
+    "location": "IN-MB",
+    "deployment_model": "LOCAL",
+    "environment": "development"
+}

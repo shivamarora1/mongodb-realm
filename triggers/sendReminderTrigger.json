@@ -1,0 +1,15 @@
+{
+    "name": "sendReminderTrigger",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "*/1 * * * *"
+    },
+    "disabled": true,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "sendReminder"
+            }
+        }
+    }
+}
